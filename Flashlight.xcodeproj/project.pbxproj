@@ -54,6 +54,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		603EA0F22111252700B64A23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60698CB2210F97F9009F2D04 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		60698CA4210F97F8009F2D04 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +81,7 @@
 		60698CAF210F97F9009F2D04 /* Flashlight */ = {
 			isa = PBXGroup;
 			children = (
-				60698CB2210F97F9009F2D04 /* ViewController.swift */,
+				603EA0F22111252700B64A23 /* ViewController */,
 				603EA0EE2111239300B64A23 /* Storyboards */,
 				603EA0ED2111238000B64A23 /* Resources */,
 			);
@@ -298,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KP8U9QDYN;
-				INFOPLIST_FILE = Flashlight/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flashlight/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KP8U9QDYN;
-				INFOPLIST_FILE = Flashlight/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flashlight/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
