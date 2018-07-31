@@ -35,6 +35,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603EA0ED2111238000B64A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60698CB0210F97F9009F2D04 /* AppDelegate.swift */,
+				60698CB7210F97FB009F2D04 /* Assets.xcassets */,
+				60698CBC210F97FB009F2D04 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		603EA0EE2111239300B64A23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60698CB9210F97FB009F2D04 /* LaunchScreen.storyboard */,
+				60698CB4210F97F9009F2D04 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		60698CA4210F97F8009F2D04 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +73,9 @@
 		60698CAF210F97F9009F2D04 /* Flashlight */ = {
 			isa = PBXGroup;
 			children = (
-				60698CB0210F97F9009F2D04 /* AppDelegate.swift */,
 				60698CB2210F97F9009F2D04 /* ViewController.swift */,
-				60698CB4210F97F9009F2D04 /* Main.storyboard */,
-				60698CB7210F97FB009F2D04 /* Assets.xcassets */,
-				60698CB9210F97FB009F2D04 /* LaunchScreen.storyboard */,
-				60698CBC210F97FB009F2D04 /* Info.plist */,
+				603EA0EE2111239300B64A23 /* Storyboards */,
+				603EA0ED2111238000B64A23 /* Resources */,
 			);
 			path = Flashlight;
 			sourceTree = "<group>";
